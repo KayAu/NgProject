@@ -1,0 +1,52 @@
+
+<div style="margin-bottom: 4px; padding: 10px; background-color: #fbfbfb">
+  <strong>Function 1</strong>
+  <ul>
+    <li>Return a stream of strings that are longer than 3 characters, convert to lowercase</li>
+    <li>Example: function1(['John', 'ABC', 'Terraformation']) -> ['John', 'Terraformation']</li>
+  </ul>
+  <button (click)="function1()">Click here</button>
+  <div style="display: flex; margin-top: 12px">
+    <span style="font-weight:700">Answer:</span>
+    <span style="margin-left: 4px; color:blue" *ngFor="let ans of func1Answers">{{ans}}</span>
+  </div>
+</div>
+
+<div style="margin-bottom: 4px; padding: 10px; background-color: #fbfbfb">
+  <strong>Function 2</strong>
+  <ul>
+    <li>Return a stream of strings that representing the number of unique characters with each input string. a and A are 2 different characters</li>
+    <li>Example: function2(['abc', 'aaaaa', 'aaaab', 'Aa']) -> [3,1,2,2]</li>
+  </ul>
+  <button (click)="function2()">Click here</button>
+  <div style="display: flex; margin-top: 12px">
+    <span style="font-weight:700">Answer:</span>
+    <span style="margin-left: 4px; color:blue" *ngFor="let ans of func2Answers">{{ans}}</span>
+  </div>
+</div>
+
+<div style="margin-bottom: 4px; padding: 10px; background-color: #fbfbfb">
+  <strong>Function 3</strong>
+  <ul>
+    <li>Return a stream of strings containing all strings from the input except those be emitted after the word end</li>
+    <li>Example: function3(['xyz', 'rx', 'end', 'codility']) -> ['xyz', 'rx']</li>
+  </ul>
+  <button (click)="function3()">Click here</button>
+  <div style="display: flex; margin-top: 12px">
+    <span style="font-weight:700">Answer:</span>
+    <span style="margin-left: 4px; color:blue" *ngFor="let ans of func3Answers">{{ans}}</span>
+  </div>
+</div>
+
+<div style="margin-bottom: 4px; padding: 10px; background-color: #fbfbfb">
+  <strong>Function 4</strong>
+  <ul>
+    <li>Return a stream of integers containing the sums of current integer and all previous integers, the final sequence of values should be emitted twice</li>
+    <li>Example: function4([10, 25]) -> [10, 35, 10, 35]</li>
+  </ul>
+  <button (click)="function4()">Click here</button>
+  <div style="display: flex; margin-top: 12px">
+    <span style="font-weight:700">Answer:</span>
+    <span style="margin-left: 4px; color:blue" *ngFor="let ans of func4Answers">{{ans}}</span>
+  </div>
+</div>
